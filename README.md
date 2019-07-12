@@ -4,10 +4,6 @@ A fork of [st](https://st.suckless.org/) with the following patches applied.
 
     Allows st to resize to any pixel size, makes the inner border size dynamic, and centers the content of the terminal so that the left/right and top/bottom borders are balanced.
 
-2. Blinking cursor ([https://lists.suckless.org/hackers/1708/15376.html](https://lists.suckless.org/hackers/1708/15376.html)):
-
-    Adds the ability to configure cursor blink to st.
-
-3. xresources ([st-xresources-20190105-3be4cf1.diff](https://st.suckless.org/patches/xresources/st-xresources-20190105-3be4cf1.diff)):
+2. xresources ([st-xresources-20190105-3be4cf1.diff](https://st.suckless.org/patches/xresources/st-xresources-20190105-3be4cf1.diff)):
 
     Adds the ability to configure st via Xresources. At startup, st will read and apply the resources named in the resources[] array in config.h.
